@@ -24,10 +24,10 @@ links.forEach((link, index) => {
   projectItem.forEach((e) => {
     if(window.innerWidth <= 750) {
       const img = e.getAttribute('data-img');
-      e.style.backgroundImage = `url(../assets/images/mobile/${img}.jpg)`;
+      e.style.backgroundImage = `url(./Assets/images/mobile/${img}.jpg)`;
     }else {
       const img = e.getAttribute('data-name');
-      e.style.backgroundImage = `url(../assets/images/desktop/${img}.jpg)`;
+      e.style.backgroundImage = `url(./Assets/images/desktop/${img}.jpg)`;
     }
   })
  };
