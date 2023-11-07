@@ -41,8 +41,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  font-family: 'Alata', sans-serif;
   font-size: 18px;
-  gap: 32px;
+  gap: 22px;
   margin: 70px 160px 0px 0px;
   color: white;
   list-style: none;
@@ -103,13 +104,15 @@
   width: 650px;
   height: 280px;
   border: 2px solid white;
-  padding-top: 29px;
+  padding-top: 38px;
 }
 
 .home-about h1 {
-  font-size: 66px;
+  font-size: 72px;
   color: white;
   padding-left: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
 }
 
 .about-us {
@@ -143,13 +146,15 @@
 }
 
 .about-desc h1{
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2.8rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .about-desc p {
+  font-family: 'Alata', sans-serif;
   padding-top: 20px;
-  font-size: 1.01rem;
+  font-size: 0.9rem;
   line-height: 25px;
   color: grey;
 }
@@ -171,6 +176,7 @@
 }
 
 .project-head h1 {
+  font-family: 'Josefin Sans';
   font-size: 2.8rem;
   font-weight: 500;
 }
@@ -178,10 +184,11 @@
 .project-all {
   width: 157px;
   height: 40px;
+  font-family: 'Josefin Sans';
   background-color: white;
   border: 1.5px solid black;
   text-align: center;
-  padding-top: 11px;
+  padding-top: 13px;
   letter-spacing: 3px;
   font-weight: 600;
 }
@@ -228,6 +235,7 @@
 
 .project-item h2 {
   position: absolute;
+  font-family: 'Josefin Sans';
   z-index: 2;
   padding: 0px 0px 25px 43px;
   font-size: 33px;
@@ -310,6 +318,7 @@ footer {
 
 .second-foot ul li a {
   display: block;
+  font-family: 'Josefin Sans';
   height: 29px;
   color: white;
   text-decoration: none;
@@ -319,6 +328,8 @@ footer {
 
 
 .foot-direct {
+  font-family: 'Josefin Sans';
+  font-weight: 600;
   color: grey;
 }
 
@@ -446,7 +457,7 @@ footer {
   }
   .project-head {
     justify-content: center;
-    height: 75px;
+    height: 95px;
     overflow: hidden;
   }
   .our-projects {
@@ -544,5 +555,8 @@ footer {
   }
   .logo {
     margin: 75px 0px 0px 0px;
+  }
+  .menu-mobile {
+    margin: 82px 20px 0px 0px;
   }
 }
