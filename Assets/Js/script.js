@@ -57,22 +57,22 @@ segFoot.forEach((l, i) => {
 
 social.forEach((b) => {
   const soc = b.getAttribute('data-social');
-  b.style.backgroundImage = `url(../Assets/images/${soc}.svg)`;
+  b.style.backgroundImage = `url(./Assets/images/${soc}.svg)`;
 })
 
 menuMobile.addEventListener('click', () => {
   if(homeList.classList.contains('none')) {
-    menuMobile.style.backgroundImage = 'url(../Assets/images/icon-close.svg)';
+    menuMobile.style.backgroundImage = 'url(./Assets/images/icon-close.svg)';
     homeList.classList.remove('none');
     homeList.classList.add('contents');
     container.style.backgroundImage = 'url()';
     container.style.backgroundColor = 'black';
     homeAbout .style.display = 'none';
   }else if(homeList.classList.contains('contents')) {
-    menuMobile.style.backgroundImage = 'url(../Assets/images/icon-hamburger.svg)';
+    menuMobile.style.backgroundImage = 'url(./Assets/images/icon-hamburger.svg)';
     homeList.classList.remove('contents');
     homeList.classList.add('none');
-    container.style.backgroundImage = 'url(../Assets/images/mobile/image-hero.jpg)';
+    container.style.backgroundImage = 'url(./Assets/images/mobile/image-hero.jpg)';
     container.style.backgroundColor = 'red';
     homeAbout.style.display = 'flex';
     homeAbout.style.flexDirection = 'column';
