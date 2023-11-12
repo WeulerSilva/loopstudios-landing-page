@@ -323,7 +323,6 @@ footer {
   color: white;
   text-decoration: none;
   padding-right: 35px;
-  height: 30px;
 }
 
 
@@ -348,6 +347,12 @@ footer {
 
 .attribution a{
   color: #fd414c;
+}
+
+@media (min-width: 1440px) {
+  .social {
+    height: 42px;
+  }
 }
 
 @media (max-width: 1230px) {
@@ -561,8 +566,27 @@ footer {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 385px) {
   .project-head {
     height: 218px;
+  }
+  .home-about h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 338px) {
+  .home-about h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .foot-logo {
+    width: 230px;
+  }
+  .logo {
+    width: 210px;
+    height: 47px;
   }
 }
